@@ -15,7 +15,7 @@ app.use(function (req, res, next) {
 
 const route = require('./routes/index');
 app.use('/', route)
-app.listen(3200)
+app.listen(3400)
 console.log('Barramento de eventos rodando na porta 3200')
 
 module.exports = app;

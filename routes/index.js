@@ -3,6 +3,6 @@ const router = express.Router()
 const controller = require("../controler/index")
 
 router.get('/create-vehicle', controller.createVehicle)
-router.post('/update-history', controller.updateHistory)
+router.post('/create-client', controller.createClient)
 
 module.exports = router;
